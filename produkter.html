@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Deler - Alt En PC Består Av</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="produkter">Produkter Pema 2000</h1>
+    <div class="flex-container">
+        <a href="index.html">Hjem</a>
+        <div class="eple">
+            <h1>Eple</h1>
+            <img src="red-apple-isolated.jpg" alt="">
+        </div>
+        <div class="melk"> 
+            <h1>Melk</h1>
+            <img src="milk-carton.jpg" alt="">
+        </div>
+        <div class="potet">
+            <h1>Poteter</h1>
+            <img src="isolated-potatoes.jpg" alt="">
+        </div>
+
+        <div> 
+            <h1>Pasta</h1>
+            <img src="cricket-pasta-1467693250Pud.jpg" alt="">
+
+
+        </div>
+
+        <div>
+            <h1>Brød</h1>
+            <img src="kromki-chleba-na-bialym-tle.jpg" alt="">
+        </div>
+
+        <footer>
+            <p>Skriv inn varene du skal kjøpe, og så eposten din</p>
+            <form action="https://formsubmit.co/andreasars@afk.no" method="POST">
+                <input type="text" name="name" required>
+                <input type="email" name="email" required>
+                <button type="submit">Send</button>
+            </form>
+        </footer>
+
+       
+        
+       
+       
+    </div>
+</body>
+</html>
+
+<style>
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(80, 112, 12, 0.376);
+    margin: 0;
+    padding: 20px;
+}
+
+.produkter {
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div {
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+div img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 10px;
+    transition: 0.5s
+    
+}
+img:hover{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    
+    
+    
+
+}
+
+
+
+
+
+</style>
